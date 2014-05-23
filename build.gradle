@@ -85,7 +85,8 @@ subprojects {
         }
         testCompile 'org.openjdk.jmh:jmh-core:0.7.2'
         testCompile 'org.openjdk.jmh:jmh-generator-annprocess:0.7.2'
-        compileOnly 'org.kohsuke.metainf-services:metainf-services:1.5'
+//        compileOnly 'org.kohsuke.metainf-services:metainf-services:1.5'
+        compile 'org.kohsuke.metainf-services:metainf-services:1.5'
         markdownDoclet "ch.raffael.pegdown-doclet:pegdown-doclet:1.1.1"
     }
 
