@@ -10,7 +10,7 @@ dependencies {
         exclude module: "jsr166e"
     }
 }
-
+/*
 sourceSets {
     test {
         java {
@@ -18,7 +18,7 @@ sourceSets {
         }
     }
 }
-
+*/
 compileJava {
     doLast {
         ant.taskdef(name:'scanSuspendables', classname:'co.paralleluniverse.fibers.instrument.SuspendablesScanner', classpath: "build/classes/main:" + configurations.compile.asPath)
